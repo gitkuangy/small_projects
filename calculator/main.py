@@ -30,8 +30,8 @@ operations = {
 print(logo)
 
 # Get the first two numbers from the user
-num1 = int(input("What is your first number? "))
-num2 = int(input("What is your second number? "))
+num1 = float(input("What is your first number? "))
+num2 = float(input("What is your second number? "))
 
 # Display available operations
 for operator in operations:
@@ -56,7 +56,7 @@ while not end_game:
     if choose == "no":
         end_game = True
     elif choose == "yes":
-        num3 = int(input("What is your next number? "))
+        num3 = float(input("What is your next number? "))
         operation = input("Pick an operation: ")
         cal_func = operations[operation]
         ans = cal_func(first_ans, num3)
