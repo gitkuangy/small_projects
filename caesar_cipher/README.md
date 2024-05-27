@@ -14,7 +14,7 @@ This is a simple Caesar Cipher project implemented in Python. The Caesar Cipher 
 
 1. Clone the repository to your local machine:
     ```sh
-    git clone https://github.com/yourusername/caesar-cipher.git
+    git clone https://github.com/gitkuangy/small_projects.git
     cd caesar-cipher
     ```
 
